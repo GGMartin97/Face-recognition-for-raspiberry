@@ -3,7 +3,7 @@
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 from functools import partial
-
+import time
 import multiprocessing as mp
 import cv2
 import os
